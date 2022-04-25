@@ -31,7 +31,7 @@ export class GameMap extends KofGameObject {
             `
         ));
 
-        this.time_left = 10000;  // ms
+        this.time_left = 30000;  // ms
         this.$timer = this.root.$kof.find(".kof-head-timer");
     }
 
